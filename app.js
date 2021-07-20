@@ -1,4 +1,4 @@
-var dataset = "../../samples.json";
+var dataset = "samples.json";
 
 function init() {
     d3.json(dataset).then(function(data) {
